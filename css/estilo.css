@@ -1,0 +1,359 @@
+header{
+	background-color:#836FFF;
+}
+header h1{
+	color: #CCEEFF;
+	font-family: consolas, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+nav ul li a{
+	color: white;
+	font-family: 'Tw Cen MT', sans-serif;	
+	transition: .5s;
+}
+nav ul li:hover a{
+	color: rgb(238, 238, 238);
+}
+nav ul li:last-child a{
+	color: rgb(201, 24, 24);
+}
+nav ul li:last-child:hover a{
+	color: rgb(185, 29, 29);
+}
+.fa-bars{
+	color: #CCEEFF;
+	font-size: 16pt;
+}
+.img-perfil{
+	width: 200px;
+	height: 160px;
+}
+#nav-pills .nav-item .active{
+	background: #836FFF;
+}
+#nav-pills .nav-item .nav-link:not(.active){
+	color: #836FFF;
+}
+.list-group-item{
+	color: white;
+	background: rgba(0, 0, 0, 0)
+}
+.list-plano-ensino{
+	background: #836FFF;
+}
+.border-purple{
+	border-color: #836FFF;
+}
+.btn-purple{
+	color: white;
+	background: #836FFF;
+}
+@media (max-width: 768px){
+	.margin-init{
+		margin-top: 100px;
+	}
+}
+@media (min-width: 768px){
+	.card-img{
+		height: 400px;
+		width: auto;
+		
+	}
+}
+
+/* body{
+	 height:100%;
+}
+
+*
+ {
+   margin: 1px; 	   
+}
+
+
+
+.cima {
+	      text-align: center; 
+		  
+}
+
+.menuh {
+	     background-color:#836FFF;
+	     width:100%;
+		 float:left;
+		 border-radius:5px;
+		 margin:0;
+}
+
+.menuh ul{
+	       margin:0;
+		   padding:0;
+		   margin-top:10px; 
+           list-style:none;		   
+}
+
+.menuh ul li{
+              display: inline;
+              		  
+              			  
+}
+
+.menuh ul a{
+             padding: 20px 70px;
+             display: inline-block;	
+             color: white;
+             text-decoration:none;			 
+}
+
+.menuh ul li a:hover{
+                     color:#556B2F;			 
+}
+
+
+.htres {
+				font-family: Tw Cen MT;
+				color:#a9a9a9;
+				margin-top: 100px;
+				margin-left: 500px;
+				text-decoration: underline;
+}
+
+.hquatrohome {
+				font-family: Tw Cen MT;
+				color:#a9a9a9;
+				margin-top: 150px;
+				margin-left: 50px;
+				text-decoration: underline;
+}
+
+.divlateralhome {
+	              background-color:#836FFF;
+			      margin-top: 5px;
+			      margin-right: 80%;
+			      padding:5px;
+			      border-radius:5px;
+			      width: 20%;
+			      float: left;
+}
+
+.divlateralhome ul {
+	                margin: 1px;
+				    list-style:none;
+}
+
+.divlateralhome ul li{
+	                  font-family: Tw Cen MT;
+				      font-size:19px;
+	                  color: white;
+				      padding:2px 1px;
+				      line-height: 30px;
+}
+
+.divlateralhome ul li a {
+					      color:white;
+	                      
+}
+
+
+.divavisos {
+	          background-color:white;
+			  border: solid 1px;
+			  border-color:#836FFF;
+			  margin-top: -365px;
+	          margin-left: 50%;
+			  margin-right: 105px;
+			  width: 60%;
+			  float: right;
+			  height:350px;
+
+}
+
+.divavisos ul {
+
+				 list-style:none;
+				 padding: -20px 0px;
+				 line-height: 20px;
+	             margin-top: 30px;
+}
+
+.divavisos ul li {
+	          
+					font-family: Tw Cen MT;
+}
+
+.divdisc1 {
+	            background-color:white;
+			    border: solid 1px;
+			    border-color:#836FFF;
+			    float: right; 
+			    height: 400px;
+			    width: 900px;
+			    margin-right: 80px;
+			    margin-top:-420px;
+}
+
+.hcinco {
+	            font-family: arial;
+				color: black;
+				margin-top: 12px;
+				margin-left: 35px;
+
+}
+
+
+.divdisc2 {
+	        background-color:white;
+			border: solid 1px;
+			border-color:#a9a9a9;
+			height: 330px;
+			width: 430px;
+			margin-top: 8px;
+			margin-left: 30px;
+		    line-height: 22px;
+}  
+
+.divdisc2 h5, p { 
+	              font-family: arial;
+				  color:#a9a9a9;
+				  margin-top: 5px;
+				  margin-left: 13px; 
+				  margin-right: 13px;
+	       
+}
+
+
+
+table
+		{
+		 font-family: arial;
+		 border-collapse:collapse;
+		 width:100%;
+}
+		
+th,td
+		{
+		 padding:8px;
+		 text-align:center;
+		 border-bottom:1px solid #836FFF;
+		 border-right:1px solid #836FFF;
+}
+
+
+.divlateraldisciplina {
+				          background-color:#836FFF;
+			              margin-top: 5px;
+			              margin-right: 80%;
+			              padding:5px;
+			              border-radius:5px;
+			              width: 20%;
+			              float: left;
+}
+
+.divlateraldisciplina ul  {
+	                          margin: 1px;
+				              list-style:none;
+}
+
+.divlateraldisciplina ul li  {
+	                             font-family: Tw Cen MT;
+				                 font-size:19px;
+	                             color: white;
+				                 padding:2px 1px;
+				                 line-height: 30px;
+}
+
+.divlateraldisciplina ul li a {
+					              color:white;
+
+}
+
+.hquatrodisciplina {
+			        	font-family: Tw Cen MT;
+			        	color:#a9a9a9;
+			         	margin-top: 240px;
+			        	margin-left: 50px;
+			        	text-decoration: underline;
+}
+
+.divtrabalhos{
+	            background-color:white;
+			    border: solid 1px;
+			    border-color:#836FFF;
+			    float: right; 
+			    height: 400px;
+			    width: 800px;
+			    margin-right: 130px;
+			    margin-top:-420px;
+                
+}	
+
+.divtrabinterna{ 
+                
+				background-color:white;
+			    border: solid 1px;
+			    border-color:#a9a9a9;
+			    height: 200px;
+			    width: 300px;
+			    margin-left: 40px;
+			    margin-top:10px;
+				border-radius:5px;
+	
+	
+}
+
+.ptrab {
+	              font-family: arial;
+				  color:#a9a9a9;
+				  margin-top: 80px;
+				  margin-left: 75px;
+                  line-height: 25px;
+				  
+				  
+                
+}	
+
+.hquatrotrab {  
+                        font-family: arial;
+				        color: black;
+				        margin-top: 30px;
+				        margin-left: 80px;
+                        text-decoration: underline;
+                        line-height: 24px;				  
+}
+
+.hquatrotrablistalunos {
+	                    
+						 font-family: arial;
+				         color: black;
+				         margin-top: -250px;
+				         margin-left: 50px;
+                         text-decoration: underline;
+                         line-height: 22px;
+						 float:right;
+						 margin-right: 30px;
+}
+
+
+.formutrab1 {
+	            margin-left:115px;
+				margin-top: 20px;
+	            
+}
+
+.formutrab2 {
+	            margin-left:125px;
+				margin-top: 5px;
+	            
+}
+
+
+
+.formutrabalunos {
+	               float: right;
+				   margin-right: 160px;
+				   margin-top: -230px;
+				   line-height: 27px;
+                   font-family:arial;				   
+	
+} */

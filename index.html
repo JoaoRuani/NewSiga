@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+			<meta charset="utf-8">
+			<meta name="author" content="Thais">
+			<meta name="description" content="trabalho">
+			<meta name="keywords" content="job, ihc, html, interface"> 		
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			
+			<!-- Bootstrap-->
+			<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+			<!-- FontAwesome-->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+			<!-- CSS --> 
+			<link rel="stylesheet" href="css/estilo.css"> 
+			
+			<title>NEWSIGA</title>
+			
+	</head>
+    <body> 
+        <!-- CABEÇALHO E MENU DE NAVEGAÇÃO --> 
+		<header class="mb-2">
+		   <h1 class=" text-center pt-4 pb-2 d-none d-md-block"> N E W S I G A</h1>
+			<nav class="navbar navbar-expand-md">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fas fa-bars"></span>
+				</button>
+				<h1 class="text-center pt-3 pb-2 d-inline d-md-none mr-2"> N E W S I G A</h1>
+				<ul class="navbar-nav nav-pills nav-justified collapse navbar-collapse " id="navbarToggle">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" target="_blank">INÍCIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="horario/horario.html" target="_blank">HORÁRIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://www.fatecpp.edu.br/" target="_blank">INSTITUCIONAL</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://www.fatecpp.edu.br/">CONSULTAS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">PROFESSORES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SAIR</a>
+					</li>
+				</ul>
+			</nav>
+		</header>			
+        <main class="margin-init">   
+			<div class="container">
+
+						<!-- Menu troca de cessões -->
+						<ul class="nav nav-pills justify-content-center mb-1 d-md-none" id="nav-pills" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#perfil">Perfil do aluno</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#painel">Painel de avisos</a>
+							</li>
+						</ul>
+						<hr class="m-0 mb-4 d-md-none">
+
+						<!-- Conteudo das cessões -->
+						<div class="tab-content" id="content">
+
+							<!-- 1ª cessão, perfil do usuário -->
+							<section class="tab-pane fade show active text-center mb-3" id="perfil" role="tabpanel">
+								<figure class="figure">
+									<p class="figure-title">Pedro Álvares Cabral</p>
+									<img src="img/capaprofile.jpg" class="img-perfil figure-img img-fluid rounded img-thumbnail " alt="Quadrado com a imagem de perfil do aluno" data-toggle="modal" data-target="#ModalPerfil">
+									<figcaption class="figure-caption">pedro_cabral@fatec.sp.gov.br<br>RA: 11102225550225</figcaption>
+								</figure>
+								<hr>
+								<h2 class="text-secondary mt-4 h3">PLANO DE ENSINO</h2>
+								<ul class="list-group rounded list-plano-ensino">
+									<li class="list-group-item">Disciplina</li>
+									<li class="list-group-item">Entrega de trabalhos</li>
+									<li class="list-group-item">Notas e faltas</li>
+									<li class="list-group-item">Conteúdos anteriores</li>
+								</ul>
+							</section>
+							
+							<!-- 2ª cessão, painel de avisos -->
+							<section class="tab-pane fade" id="painel" role="tabpanel">
+
+								<!-- Card teste 1 -->
+								<div class="card border-purple mb-3">
+									<div class="card-header">DATA DO AVISO: <span class="dia-aviso">18/10</span></div>
+									<div class="card-body">
+										<h2 class="card-title h5">GRUPO DE CONVERSAÇÃO EM INGLÊS</h2>
+										<img class="card-img-top img-responsive" src="img/grpIngles.png" alt="Imagem de flyer sobre grupo de conversação em ingl~es, ocorrerá nos dias 20/10/18, 10/11/18, 01/12/18 às 14 horas na sala 4. Somente para alunos da fatec" data-toggle="modal" data-target="#ImgCard1">
+									</div>
+								</div>
+
+								<!-- Card teste 2 -->
+								<div class="card border-purple mb-3">
+									<div class="card-header">DATA DO AVISO: <span class="dia-aviso">10/09</span></div>
+									<div class="card-body">
+										<h2 class="card-title h5">SUSPENSÃO DE AULA</h2>
+										<p class="card-text">Em virtude do dia dos professores, o governador decretará ponto facultativo, portanto, NÃO HAVERÁ AULA no dia 15/10/2018.</p>
+									</div>
+								</div>	
+
+								<!-- Card teste 3 -->
+								<div class="card border-purple mb-3">
+									<div class="card-header">DATA DO AVISO: <span class="dia-aviso">09/07</span></div>
+									<div class="card-body">
+										<h2 class="card-title h5">BOLSAS DE ESTUDO</h2>
+										<p class="card-text">Pessoal, não percam a oportunidade, inscrevam-se para concorrer a uma bolsa de estudos. Segue edital anexo.</p>
+										<a href="pdf/edital.pdf" target="_blank" class="btn btn-purple">EDITAL</a>
+										<a href="https://www.santanderuniversidades.com.br/bolsas/nacionais/Paginas/santander-graduacao.aspx#" target="_blank" class="btn btn-purple">INSCRIÇÃO</a>
+									</div>
+								</div>
+						
+							</section>
+						</div>
+					
+			</div>
+			
+			<!-- MODAL DA IMAGEM DO PERFIL -->
+			<div class="modal fade" id="ModalPerfil" tabindex="-1" role="dialog" aria-labelledby="Imagem do perfil" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<p class="modal-title">Pedro Álvares Cabral</p>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true" class="fas fa-times-circle"></span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="img/capaprofile.jpg" class="img-fluid rounded" alt="Imagem de perfil do Pedro Álvares Cabral.">						
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- MODAL DA IMAGEM DO PAINEL DE AVISOS -->
+			<div class="modal fade" id="ImgCard1" tabindex="-1" role="dialog" aria-labelledby="Imagem grupo de conversação em inglês" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<p class="modal-title">Grupo de conversação em inglês</p>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true" class="fas fa-times-circle"></span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img class="img-fluid " src="img/grpIngles.png" alt="Imagem de flyer sobre grupo de conversação em ingl~es, ocorrerá nos dias 20/10/18, 10/11/18, 01/12/18 às 14 horas na sala 4. Somente para alunos da fatec">
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>	
+        	<!-- <h3 class="htres">  PAINEL DE AVISOS </h3>
+			<h4 class="hquatrohome">  PLANO DE ENSINO </h4>		  
+		    <div class="divlateralhome">
+                <ul>
+                    <li> <a href="disciplinas.html"> Disciplina </li><br></a>
+                    <li> <a href="entregatrabalho.html"> Entrega de trabalhos </li><br></a>
+                    <li> Notas e faltas </li><br>
+                    <li> Conteúdos anteriores </li><br>								
+                </ul>
+			</div>
+			<br>
+                      
+                                   
+			<div class="divavisos"> 
+            	<ul>
+                	<li><a href=""> Avisos de feriados  </a></li><br>
+					<li><a href=""> Notas e faltas da matéria de ABC I já disponível - CONFIRA NOTAS E FALTAS  </a></li><br>
+					<li><a href=""> Notas e faltas da matéria de CBA II já disponível - CONFIRA NOTAS E FALTAS  </a></li><br>
+					<li><a href=""> Bolsas Santander  </a></li><br>
+					<li><a href=""> Notas de esclarecimentos - secretária  </a></li><br>
+					<li><a href=""> Simpósio brasileiro de história  </a></li><br>
+					<li><a href=""> Notas e faltas da matéria de BAC III já disponível - CONFIRA NOTAS E FALTAS </a></li><br>
+					<li><a href=""> Bolsas Santander  </a></li><br>
+					<li><a href=""> Notas de esclarecimentos - secretária  </a></li><br>
+					<li><a href=""> Simpósio brasileiro de história  </a></li><br>
+					<li><a href=""> Notas e faltas da matéria de BAC III já disponível - CONFIRA NOTAS E FALTAS </a></li><br>
+				</ul>												   
+ 								    
+			</div>	 -->
+									   
+		<script src="jquery/jquery.slim.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/screen.js"></script>
+	</body>	 
+</html>	 
