@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Thais">
+    <meta name="description" content="trabalho">
+    <meta name="keywords" content="job, ihc, html, interface">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <title>NEWSIGA</title>
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO E MENU DE NAVEGAÇÃO -->
+    <header class="mb-2">
+        <h1 class=" text-center pt-4 pb-2 d-none d-md-block"> N E W S I G A</h1>
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+            <h1 class="text-center pt-3 pb-2 d-inline d-md-none mr-2"> N E W S I G A</h1>
+            <ul class="navbar-nav nav-pills nav-justified collapse navbar-collapse " id="navbarToggle">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../horario/horario.html">HORÁRIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.fatecpp.edu.br/" target="_blank">INSTITUCIONAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.fatecpp.edu.br/">CONSULTAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PROFESSORES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SAIR</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="margin-init container">
+        <div class="row mt-4">
+
+            <!-- "MENU" LATERAL -->
+            <aside class="col-md-3 d-none d-md-block text-center mb-3 px-md-0">
+                <figure class="figure">
+                    <p class="figure-title">Pedro Álvares Cabral</p>
+                    <img src="../img/capaprofile.jpg" class="img-perfil figure-img img-fluid rounded img-thumbnail "
+                        alt="Quadrado com a imagem de perfil do aluno" data-toggle="modal" data-target="#ModalPerfil">
+                    <figcaption class="figure-caption">pedro_cabral@fatec.sp.gov.br<br>RA: 11102225550225</figcaption>
+                </figure>
+                <hr>
+                <h3 class="text-secondary mt-4 ">PLANO DE ENSINO</h3>
+                <ul class="list-group rounded list-plano-ensino">
+                    <li class="list-group-item">
+                        <a href="disciplinas/disciplinas.html" class="dropdown-toggle" id="disciplinas" role="button"
+                            data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseDisciplinas"
+                            aria-label="Abrir lista das disciplinas">Disciplina</a>
+                        <div class="collapse mt-2" id="collapseDisciplinas" aria-labelledby="disciplinas">
+
+                            <a class="dropdown-item text-light" href="#">MCA002 - Cálculo</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-light" href="#">LPO001 - Com. e Exp.</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-light" href="#">CCG001 - Contabilidade</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-light" href="#">IES100 - Eng. de Software</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-light" href="#">ILP010 - Lógica de Programação</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-light" href="#">ISI002 - Sistema de informação</a>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Entrega de trabalhos</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Notas e faltas</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">Conteúdos anteriores</a>
+                    </li>
+                </ul>
+            </aside>
+            <section class="col-md-9 px-md-5">
+                <h2 class="h3 text-secondary mb-3">História do Brasil</h2>
+                <ul class="nav nav-pills justify-content-center mb-3" id="nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#apresentacao">Apresentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#aulas">Aulas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills-01" data-toggle="pill" href="#avaliacoes">Avaliações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#extraClasse">Extra Classe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills-01" data-toggle="pill" href="#avaliacoes">Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#extraClasse">Bibliografia</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="content ">
+                    <article class="tab-pane fade show active mb-3" id="apresentacao" role="tabpanel">
+                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollSpy">
+                            <h4 id="fat">@fat</h4>
+                            <p>A História do Brasil tem seu início comumente apontado a partir da chegada dos
+                                portugueses,
+                                quando Pedro Álvares Cabral e sua esquadra atracaram na região de Porto Seguro, em
+                                1500.
+                                Vários
+                                estudos vêm sendo realizados com o intuito de registrar a forma como é contada essa
+                                história
+                                pelos próprios indígenas.</p>
+                            <h4 id="mdo">@mdo</h4>
+                            <p>...</p>
+                            <h4 id="one">one</h4>
+                            <p>...</p>
+                            <h4 id="two">two</h4>
+                            <p>...</p>
+                            <h4 id="three">three</h4>
+                            <p>...</p>
+                        </div>
+                    </article>
+                    <article class="tab-pane fade mb-3" id="aulas" role="tabpanel">
+                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollSpy">
+                            <h4 id="fat">@fat</h4>
+                            <ol>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                            </ol>
+                            <h4 id="mdo">@mdo</h4>
+                            <p>...</p>
+                            <h4 id="one">one</h4>
+                            <p>...</p>
+                            <h4 id="two">two</h4>
+                            <p>...</p>
+                            <h4 id="three">three</h4>
+                            <p>...</p>
+                        </div>
+                    </article>
+                    <article class="tab-pane fade mb-3" id="avaliacoes" role="tabpanel">
+                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollSpy">
+                            <h4 id="fat">@fat</h4>
+                            <ol>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                            </ol>
+                            <h4 id="mdo">@mdo</h4>
+                            <p>
+                                Fórmula
+                                IIF(P3<>0,P3,(P1+P2)/2)
+                                    Observações
+
+                                    P1 PROVA 1
+                                    Avaliação 1º bimestre
+
+                                    P2 PROVA 2
+                                    Avaliação Bimestral
+
+                                    P3 EXAME
+                                    Exame
+                            </p>
+                            <h4 id="one">one</h4>
+                            <p>...</p>
+                            <h4 id="two">two</h4>
+                            <p>...</p>
+                            <h4 id="three">three</h4>
+                            <p>...</p>
+                        </div>
+                    </article>
+                    <article class="tab-pane fade mb-3" id="extraClasse" role="tabpanel">
+                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollSpy">
+                            <h4 id="fat">@fat</h4>
+                            <ol>
+                                <li>
+                                    Enviar o relatório (.doc) identificando os integrantes do grupo para um dos emails:
+
+
+
+                                    carkoyama@yahoo.com.br
+
+
+
+                                    c.sh.koyama@gmail.com
+
+
+                                    inicio 17/08/18 19:13
+                                    término 12/08/18 23:59
+
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                            </ol>
+                            <h4 id="mdo">@mdo</h4>
+                            <p>
+                                Fórmula
+                                IIF(P3<>0,P3,(P1+P2)/2)
+                                    Observações
+
+                                    P1 PROVA 1
+                                    Avaliação 1º bimestre
+
+                                    P2 PROVA 2
+                                    Avaliação Bimestral
+
+                                    P3 EXAME
+                                    Exame
+                            </p>
+                            <h4 id="one">one</h4>
+                            <p>...</p>
+                            <h4 id="two">two</h4>
+                            <p>...</p>
+                            <h4 id="three">three</h4>
+                            <p>...</p>
+                        </div>
+                    </article>
+                    <article class="tab-pane fade mb-3" id="extraClasse" role="tabpanel">
+                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollSpy">
+                            <h4 id="fat">@fat</h4>
+                            <ol>
+                                <li>
+                                    Enviar o relatório (.doc) identificando os integrantes do grupo para um dos emails:
+
+
+
+                                    carkoyama@yahoo.com.br
+
+
+
+                                    c.sh.koyama@gmail.com
+
+
+                                    inicio 17/08/18 19:13
+                                    término 12/08/18 23:59
+
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                                <li>
+                                    Apresentação da disciplina
+                                    - Apresentação do plano de ensino
+                                    - Metodologia de ensino e de avaliação
+                                    Apresentação oral, uso de recusos multimídia
+                                </li>
+                            </ol>
+                            <h4 id="mdo">@mdo</h4>
+                            <p>
+                                Fórmula
+                                IIF(P3<>0,P3,(P1+P2)/2)
+                                    Observações
+
+                                    P1 PROVA 1
+                                    Avaliação 1º bimestre
+
+                                    P2 PROVA 2
+                                    Avaliação Bimestral
+
+                                    P3 EXAME
+                                    Exame
+                            </p>
+                            <h4 id="one">one</h4>
+                            <p>...</p>
+                            <h4 id="two">two</h4>
+                            <p>...</p>
+                            <h4 id="three">three</h4>
+                            <p>...</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+
+            <div class="modal fade" id="ModalPerfil" tabindex="-1" role="dialog" aria-labelledby="Imagem do perfil"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p class="modal-title">Pedro Álvares Cabral</p>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="fas fa-times-circle"></span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/capaprofile.jpg" class="img-fluid rounded" alt="Imagem de perfil do Pedro Álvares Cabral.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!-- SCRIPTS JAVASCRIPT -->
+    <script src="../jquery/jquery.slim.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/screen.js"></script>
+    <script src="../pooper/popper.min.js"></script>
+</body>
+
+</html>
