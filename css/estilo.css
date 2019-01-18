@@ -1,3 +1,12 @@
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
 header{
 	background-color:#836FFF;
 }
@@ -13,13 +22,13 @@ nav ul li a{
 	transition: .5s;
 }
 nav ul li:hover a{
-	color: rgb(238, 238, 238);
+	color: rgb(221, 221, 221);
 }
 nav ul li:last-child a{
 	color: rgb(201, 24, 24);
 }
 nav ul li:last-child:hover a{
-	color: rgb(185, 29, 29);
+	color: rgb(202, 8, 8);
 }
 .fa-bars{
 	color: #CCEEFF;
@@ -29,7 +38,7 @@ nav ul li:last-child:hover a{
 	width: 200px;
 	height: 160px;
 }
-#nav-pills .nav-item .active{
+#nav-pills .nav-item .active, .list-plano-ensino, .btn-block-purple:focus, .btn-block-purple, .btn-purple{
 	background: #836FFF;
 }
 #nav-pills .nav-item .nav-link:not(.active){
@@ -39,15 +48,39 @@ nav ul li:last-child:hover a{
 	color: white;
 	background: rgba(0, 0, 0, 0)
 }
-.list-plano-ensino{
-	background: #836FFF;
-}
 .border-purple{
 	border-color: #836FFF;
 }
 .btn-purple{
 	color: white;
-	background: #836FFF;
+}
+.btn-block-purple{
+	box-shadow: -1px -1px 1px 1px #826fffd3;
+	color: white;
+	font-size: 14pt;
+	margin-bottom: 15px;
+}
+.btn-block-purple:focus{
+	box-shadow: -1px -1px 2px 2px #584baad3;
+}
+.table:active{
+	background: none;
+	color: inherit;
+}
+.center-table{
+	margin: 0 auto;
+	vertical-align: middle;
+}
+.icon-send{
+	font-size: 1.4em;
+}
+.dropdown-item:hover{
+	background: none;
+}
+.scrollSpy{
+	position: relative;
+	overflow: auto;
+	height: 400px;
 }
 @media (max-width: 768px){
 	.margin-init{

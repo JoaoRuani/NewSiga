@@ -1,159 +1,485 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	    <meta charset="utf-8">
-        <meta name="author" content="Thais">
-		<meta name="description" content="trabalho">
-        <meta name="keywords" content="job, ihc, html, interface"> 
-  
-        <!-- CSS --> 
-        <link rel="stylesheet" href="estilo.css"> 		
+	<meta charset="utf-8">
+	<meta name="author" content="Thais">
+	<meta name="description" content="trabalho">
+	<meta name="keywords" content="job, ihc, html, interface">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Bootstrap-->
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Bootstrap-->
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 
-	   <title>NEWSIGA</title>
-          
+
+	<!-- FontAwesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="../css/estilo.css">
+
+	<title>NEWSIGA</title>
+
 </head>
-      <body> 
-            <!-- CABEÇALHO E MENU DE NAVEGAÇÃO --> 
-			<header>
-			
-			   <h1 class="cima"> N E W S I G A </h1>
-			 
-			       <nav class="menuh">
-				       <ul>	
-					   
-					   <li> <a href="home.html"> INÍCIO </a></li> 
-					 
-					   <li> <a href="horario.html"> HORÁRIO </a></li>
-					 
-					   <li> <a href="http://www.fatecpp.edu.br/" target="_blank"> INSTITUCIONAL </a></li>
-					 
-					   <li> <a href="http://www.fatecpp.edu.br/" target="_blank"> CONSULTAS </a></li>
-					 
-					   <li> <a href="" target="_blank">E-MAIL PROFESSORES </a> </li>
-					 
-					   <li> <a href="" target="_blank"> SAIR </a> </li>
-				  
-					  </ul>
-					  
-				   </nav>
-            </header>
 
-       <br>
+<body>
 
-     
-     <table>
-          <tr>
-		   <th colspan="6px"> HORÁRIO DIURNO </th>
-		  </tr>
-				
-				<tr> 
-					<th> Segunda - Feira </th>
-					<th> Terça - Feira </th>
-					<th> Quarta - Feira </th>
-					<th> Quinta - Feira </th>
-					<th> Sexta - Feira </th>
-					<th> Sábado </th>
-				</tr>
-		                 <tr>
-							 <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00
-                             </td>
-                            
-							 <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00							
-							 </td>
-                           
-						     <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00							
-							 </td>
-                            
-							 <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00							
-							 </td>
-    
-                             <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00							
-							</td>	
-							
-							<td rowspan="2"> Aula: <br><br>
-							 (nome da matéria) <br><br>
-                                  Horário:<br><br>
-								  00h00-00h00							
-							</td>
-					   </tr>
-       <tr>
-       </tr>	   
+	<!-- CABEÇALHO E MENU DE NAVEGAÇÃO -->
+	<header class="mb-2">
+		<h1 class=" text-center pt-4 pb-2 d-none d-md-block"> N E W S I G A</h1>
+		<nav class="navbar navbar-expand-md">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggleExternalContent"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fas fa-bars"></span>
+			</button>
+			<h1 class="text-center pt-3 pb-2 d-inline d-md-none mr-2"> N E W S I G A</h1>
+			<ul class="navbar-nav nav-pills nav-justified collapse navbar-collapse " id="navbarToggle">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html">INÍCIO</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../horario/horario.html">HORÁRIO</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://www.fatecpp.edu.br/" target="_blank">INSTITUCIONAL</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://www.fatecpp.edu.br/">CONSULTAS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">PROFESSORES</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">SAIR</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="margin-init container">
 
 
-		<tr>
-		  <th colspan="6px"> HORÁRIO NOTURNO </th>
-		</tr>
-		
-				<tr>
-				    <th> Segunda - Feira </th>
-					<th> Terça - Feira </th>
-					<th> Quarta - Feira </th>
-					<th> Quinta - Feira </th>
-					<th> Sexta - Feira </th>
-					<th> Sábado </th>
-				</tr>
-		
-							 <tr>
-							 <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00
-                             </td>
-                            
-							 <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00							
-							 </td>
-                           
-						     <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00							
-							 </td>
-                            
-							 <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-                                              Horário:<br><br>
-											  00h00-00h00	
-						
-							 </td>
-    
-                             <td rowspan="2"> Aula: <br><br>
-							                (nome da matéria) <br><br>
-											 Horário:<br><br>
-                                              00h00-00h00							
-							</td>	
-							
-							<td rowspan="2"> Aula <br><br>
-							               ------- <br><br>
-                                           -------							
-							</td>
-					   </tr>
-     </table>
+		<h2 class="text-secondary text-center h3 mb-4">HORÁRIOS MANHÃ</h2>
+		<div class="row mt-3">
+			<div class="col-lg-4 col-md-6">
+				<!-- SEGUNDA FEIRA -->
+				<h3 class="dropdown-table dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioSegunda" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable" aria-label="Toggle horário">SEGUNDA-FEIRA</h3>
 
-	 
-	
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioSegunda" id="collapseTable">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">07:40 - 08:30</td>
+						</tr>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">08:30 - 09:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Contabilidade</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Contabilidade</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<!-- TERÇA FEIRA -->
 
-	
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioTerça" role="button" data-toggle="collapse"
+				 aria-haspopup="true" aria-expanded="false" data-target="#collapseTable2" aria-label="Toggle horário">TERÇA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioTerça" id="collapseTable2">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">07:40 - 08:30</td>
+						</tr>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">08:30 - 09:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<!-- QUARTA FEIRA -->
+
+			<div class="col-lg-4 col-md-6">
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioQuarta" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable3" aria-label="Toggle horário">QUARTA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioQuarta" id="collapseTable3">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<!-- QUINTA FEIRA -->
+
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioQuinta" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable4" aria-label="Toggle horário">QUINTA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioQuinta" id="collapseTable4">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+			<!-- SEXTA FEIRA -->
+			<div class="col-lg-4 col-md-6">
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioSexta" role="button" data-toggle="collapse"
+				 aria-haspopup="true" aria-expanded="false" data-target="#collapseTable5" aria-label="Toggle horário">SEXTA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioSexta" id="collapseTable5">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">07:40 - 08:30</td>
+						</tr>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">08:30 - 09:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Inglês II</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Inglês II</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- HORÁRIOS NOITE -->
+
+		<h2 class="text-secondary text-center h3 my-4 mt-md-0">HORÁRIOS NOITE</h2>
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<!-- SEGUNDA FEIRA -->
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioSegundaNoite" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable6" aria-label="Toggle horário">SEGUNDA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioSegundaNoite" id="collapseTable6">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">07:40 - 08:30</td>
+						</tr>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">08:30 - 09:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Contabilidade</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Contabilidade</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- TERÇA FEIRA -->
+			<div class="col-lg-4 col-md-6">
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioTerçaNoite" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable7" aria-label="Toggle horário">TERÇA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioTerçaNoite" id="collapseTable7">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">07:40 - 08:30</td>
+						</tr>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">08:30 - 09:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- QUARTA FEIRA -->
+			<div class="col-lg-4 col-md-6">
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioQuartaNoite" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable8" aria-label="Toggle horário">QUARTA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioQuartaNoite" id="collapseTable8">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Lin. de programação</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<!-- QUINTA FEIRA -->
+
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioQuintaNoite" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable9" aria-label="Toggle horário">QUINTA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioQuintaNoite" id="collapseTable9">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Eng. de Software</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Com. e expressão</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+			<!-- SEXTA FEIRA -->
+			<div class="col-lg-4 col-md-6">
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioSextaNoite" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable10" aria-label="Toggle horário">SEXTA-FEIRA</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioSextaNoite" id="collapseTable10">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">07:40 - 08:30</td>
+						</tr>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">08:30 - 09:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Inglês II</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Inglês II</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+			<!-- SÁBADO -->
+			<div class="col-lg-4 col-md-6">
+				<h3 class="dropdown-toggle h5 btn btn-block btn-block-purple text-left" id="horarioSabado" role="button"
+				 data-toggle="collapse" aria-haspopup="true" aria-expanded="false" data-target="#collapseTable11" aria-label="Toggle horário">SÁBADO</h3>
+
+				<table class="table text-center collapse fade table-striped" aria-labelledby="horarioSabado" id="collapseTable11">
+					<thead>
+						<tr>
+							<th scope="col">Disciplina</td>
+							<th scope="col">Horário</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">07:40 - 08:30</td>
+						</tr>
+						<tr>
+							<td scope="col">Sis. de informação</td>
+							<td scope="col">08:30 - 09:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">09:30 - 10:20</td>
+						</tr>
+						<tr>
+							<td scope="col">Cálculo</td>
+							<td scope="col">10:20 - 11:10</td>
+						</tr>
+						<tr>
+							<td scope="col">Inglês II</td>
+							<td scope="col">11:10 - 12:00</td>
+						</tr>
+						<tr>
+							<td scope="col">Inglês II</td>
+							<td scope="col">12:00 - 12:50</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+	</main>
+
+
+
+	<!-- SCRIPTS JAVASCRIPT -->
+	<script src="../jquery/jquery.slim.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/screen.js"></script>
+	<script src="../pooper/popper.min.js"></script>
 </body>
-</html>					   
+
+</html>
